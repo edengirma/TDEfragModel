@@ -165,3 +165,6 @@ class TDEsim:
         # Creating JSON file
         with open('data1000.json', 'w') as fp:
             json.dump(self.data, fp)
+        
+        # Completion
+        return('Initialization complete.')
